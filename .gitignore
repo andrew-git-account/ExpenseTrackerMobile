@@ -1,0 +1,28 @@
+# Android / Gradle build output
+.gradle/
+build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio (personal IDE settings)
+.idea/
+*.iml
+
+# Machine-specific paths to the Android SDK - never commit
+local.properties
+
+# Signing keys and secrets - never commit
+*.jks
+*.keystore
+*.pem
+.env
+secrets.properties
+
+# Built apps
+*.apk
+*.aab
+
+# OS files
+.DS_Store
+Thumbs.db
